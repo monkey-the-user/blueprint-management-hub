@@ -17,7 +17,7 @@ This folder will contain the basic settings for the site, including the base blu
 
 ```yaml
 bases:
-- git::https://github.com/redhat-edge-computing/blueprint-management-hub.git//profiles/production.gcp/00_install-config
+- git::https://github.com/monkey-the-user/blueprint-management-hub.git//profiles/production.gcp/00_install-config
 
 patches:
 - install-config.patch.yaml
@@ -116,4 +116,4 @@ Finally, create a `$HOME/.kni` folder and copy the following files:
 You can find the steps to deploy the following defined sites here:
 
 
-- [Management Hub cluster running on GCP](sites/edge-mgmt-hub.gcp.devcluster.openshift.com/README.md)
+- [Management Hub cluster running on GCP](sites/edge-monkey-hub.gcp.devcluster.openshift.com/README.md)
